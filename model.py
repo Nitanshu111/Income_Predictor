@@ -16,7 +16,7 @@ st.set_page_config(
 # ── Load model ───────────────────────────────────────────────────────────────
 @st.cache_resource
 def load_model():
-    return joblib.load("model.pkl")
+    return joblib.load("rf.pkl")
 
 model = load_model()
 
